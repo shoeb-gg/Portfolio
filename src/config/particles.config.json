@@ -140,13 +140,13 @@
       "trail": {
         "delay": 0.005,
         "pauseOnStop": true,
-        "quantity": 5,
+        "quantity": 3,
         "particles": {
           "color": {
             "value": "#ff0000",
             "animation": {
               "enable": true,
-              "speed": 400,
+              "speed": 600,
               "sync": true
             }
           },
@@ -371,7 +371,7 @@
       },
       "random": false,
       "size": false,
-      "speed": 2,
+      "speed": 2.5,
       "spin": {
         "acceleration": 0,
         "enable": false
@@ -391,10 +391,10 @@
       "density": {
         "enable": true,
         "area": 800,
-        "factor": 1000
+        "factor": 10000
       },
       "limit": 0,
-      "value": 100
+      "value": 1500
     },
     "opacity": {
       "random": {
@@ -495,7 +495,7 @@
       },
       "value": {
         "min": 1,
-        "max": 3
+        "max": 4
       },
       "animation": {
         "count": 0,

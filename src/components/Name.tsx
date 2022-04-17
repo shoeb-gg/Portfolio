@@ -1,12 +1,16 @@
 import React from "react";
 
 function Name() {
-  let myRole = "<MERN & MEAN Stack Developer/>";
+  let myRole = "<Full Stack Developer/>";
 
   return (
-    <div>
-      <h1 className="name-title">Shoeb Uddin Ahmed</h1>
-      <h3 className="name-title-role">{myRole}</h3>
+    <div style={{ marginTop: "1.2rem" }}>
+      <h1 style={{ fontSize: "2.8rem" }} className="name-title">
+        Shoeb Uddin Ahmed
+      </h1>
+      <h3 style={{ paddingLeft: "13rem" }} className="name-title-role">
+        {myRole}
+      </h3>
     </div>
   );
 }
