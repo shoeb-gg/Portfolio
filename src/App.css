@@ -1,16 +1,39 @@
+.front-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 2rem;
+}
+
 .name-title {
   color: white;
   text-align: center;
   pointer-events: none;
+  margin-top: 5rem;
+  font-weight: 500;
 }
 .name-title-role {
   color: white;
   text-align: center;
   pointer-events: none;
+  font-weight: 500;
+}
+
+.summary-container {
+  color: white;
+  margin: 0 9rem;
+  margin-top: 5rem;
+}
+
+.summary-container-text {
+  background-color: black;
+  text-align: justify;
+  line-height: 1.3rem;
+  font-weight: 400;
 }
 
 .photo {
-  margin-top: 70px;
+  margin-top: 5rem;
+  margin-right: 3rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -43,6 +66,7 @@
 .btn-download {
   display: flex;
   justify-content: center;
+  margin-top: 3rem;
 }
 
 .notice {
@@ -52,4 +76,24 @@
   bottom: 0%;
   padding: 2px 10px;
   font-size: 0.9rem;
+}
+
+@media all and (max-width: 1250px) {
+  .front-container {
+    margin: 0 0.8rem;
+  }
+
+  .photo {
+    margin-right: 1rem;
+  }
+}
+
+@media all and (max-width: 1050px) {
+  .front-container {
+    margin: 0 0.2rem;
+  }
+
+  .photo {
+    margin-right: 0.5rem;
+  }
 }

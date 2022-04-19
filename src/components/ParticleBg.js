@@ -7,13 +7,10 @@ function ParticleBg() {
     await loadFull(main);
   };
 
-  const particlesLoaded = (container) => {};
-
   return (
     <Particles
       id="tsparticles"
       init={particlesInit}
-      loaded={particlesLoaded}
       options={particlesConfig}
     />
   );

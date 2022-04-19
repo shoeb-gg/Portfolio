@@ -5,6 +5,7 @@ import myResume from "./resources/Resume.pdf";
 import ParticleBg from "./components/ParticleBg";
 import Name from "./components/Name";
 import MyPhoto from "./components/MyPhoto";
+import Summary from "./components/Summary";
 
 import Button from "@mui/material/Button";
 import FileDownloadSharpIcon from "@mui/icons-material/FileDownloadRounded";
@@ -23,8 +24,14 @@ function App() {
   return (
     <div className="App">
       <ParticleBg></ParticleBg>
-      <Name></Name>
-      <MyPhoto></MyPhoto>
+      <div className="front-container">
+        <div>
+          <Name></Name>
+          <Summary></Summary>
+        </div>
+        <MyPhoto></MyPhoto>
+      </div>
+
       <div className="btn-download">
         <Button
           onClick={downloadResume}
@@ -35,12 +42,12 @@ function App() {
             fontWeight: "bolder",
             marginTop: "2.5rem",
             marginBottom: "2rem",
+            width: "25%",
           }}
         >
           Download Resume
         </Button>
       </div>
-      <div className="notice">This site is currently under development</div>
     </div>
   );
 }
