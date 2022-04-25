@@ -34,6 +34,7 @@ function App() {
 
       <div className="btn-download">
         <Button
+          className="btn-inner"
           onClick={downloadResume}
           color="info"
           variant="contained"

@@ -78,6 +78,10 @@
   font-size: 0.9rem;
 }
 
+.btn-inner:hover {
+  cursor: url("./resources/urlCursor.png"), auto;
+}
+
 @media all and (max-width: 1250px) {
   .front-container {
     margin: 0 0.8rem;
