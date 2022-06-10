@@ -37,6 +37,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 .photo-img-outline {
@@ -57,7 +58,7 @@
 }
 
 .photo-img {
-  position: relative;
+  position: inherit;
   width: 380px;
   border-radius: 50%;
   animation: none;
@@ -67,15 +68,6 @@
   display: flex;
   justify-content: center;
   margin-top: 3rem;
-}
-
-.notice {
-  position: fixed;
-  background-color: rgb(160, 0, 0);
-  color: white;
-  bottom: 0%;
-  padding: 2px 10px;
-  font-size: 0.9rem;
 }
 
 .btn-inner:hover {
